@@ -1,0 +1,7 @@
+ext {
+    config = [
+        group : 'org.eclipse.uprotocol',
+        artifact : 'up-kotlin',
+        version : '1.5.7-SNAPSHOT',
+    ]
+}

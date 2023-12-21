@@ -1,11 +1,13 @@
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
 !src/main/**/target/
 !src/test/**/target/
 *.jar
 *.log
 dependency-reduced-pom.xml
+local.properties
 
 **/prod_*.yaml
 
@@ -33,6 +35,7 @@ dependency-reduced-pom.xml
 build/
 !src/main/**/build/
 !src/test/**/build/
+.gradle
 
 ### VS Code ###
 .vscode/
